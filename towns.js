@@ -25,6 +25,7 @@ function addTown() {
     $('#townNameForAdd').val('');
     $('#towns').append($('<option>').text(townName));
     $('#result').text(townName + " added.");
+    showMessage(townName + " added");
 }
 
 function showMessage(msg) {
